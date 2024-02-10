@@ -18807,7 +18807,7 @@ img.u-opacity-0,
 }
 .u-social-icons .u-icon {
   display: flex;
-  height: 100% !important;
+  /* height: 100% !important; */
 }
 .u-social-icons .u-social-url,
 .u-social-icons .u-social-url:hover {
