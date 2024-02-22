@@ -7,7 +7,11 @@
    height: auto;
    margin-top: 0;
    margin-bottom: 60px;
-   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/Default_ultrarelism_a_car_driving_in_a_sunset_0.jpg");
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+ }
+
+ .u-section-1-bg{
+background-image: url("images/Default_ultrarelism_a_car_driving_in_a_sunset_0.jpg");
  }
 
  .u-section-1 .u-container-layout-1 {
@@ -41,28 +45,33 @@
    font-style: italic;
    margin: 971px 0 0 1092px;
  }
+
  .d-flex {
-  display: flex;
+   display: flex;
  }
 
- .d-flex-header{
-  display: flex;
-  flex-direction: row;
-  margin: 0 45%;
-  flex:1;
-  width: 50%;
+ .d-flex-header {
+   display: flex;
+   flex-direction: row;
+   margin: 0 45%;
+   flex: 1;
+   width: 50%;
  }
 
-.d-flex-header img:hover, .d-flex img:hover  {
-  transition: transform 0.5s ease;
-  transform: scale(1.1);
-}
+ .d-flex-header img:hover,
+ .d-flex img:hover {
+   transition: transform 0.5s ease;
+   transform: scale(1.1);
+ }
 
  @media (max-width: 1199px) {
    .u-section-1 .u-image-1 {
      position: relative;
+     min-width: none!important;
      height: auto;
+
    }
+
 
    .u-section-1 .u-container-layout-1 {
      padding-right: 16px;
@@ -146,6 +155,16 @@
  }
 
  @media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    position: relative;
+    height: auto;
+  }
+  .u-section-1-bg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
    .u-section-1 .u-container-layout-1 {
      padding-right: 18px;
      padding-bottom: 0;
@@ -588,8 +607,9 @@
      margin-left: 10px;
      margin-right: 10px;
    }
+
    .d-flex {
-    display: flex;
+     display: flex;
    }
 
    .u-section-2 .u-container-layout-2 {
@@ -672,8 +692,9 @@
    .u-section-2 .u-sheet-1 {
      min-height: 2130px;
    }
+
    .d-flex {
-    display: flex;
+     display: flex;
    }
 
    .u-section-2 .u-layout-wrap-1 {
@@ -861,8 +882,9 @@
    .u-section-3 .u-sheet-1 {
      min-height: 653px;
    }
+
    .d-flex {
-    display: flex;
+     display: flex;
    }
 
    .u-section-3 .u-layout-wrap-1 {
@@ -1022,8 +1044,9 @@
    .u-section-3 .u-sheet-1 {
      min-height: 1125px;
    }
+
    .d-flex {
-    display: flex;
+     display: flex;
    }
 
    .u-section-3 .u-layout-wrap-1 {
@@ -1114,8 +1137,9 @@
    background-image: none;
    margin: 15px auto;
  }
+
  .d-flex {
-  display: flex;
+   display: flex;
  }
 
  @media (max-width: 1199px) {
@@ -1140,7 +1164,7 @@
    }
 
    .d-flex {
-    display: flex;
+     display: flex;
    }
 
    .u-section-4 .u-btn-1 {
